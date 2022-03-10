@@ -1,0 +1,43 @@
+html {
+  @apply antialiased;
+  text-rendering: optimizeLegibility
+}
+
+body {
+  @apply min-h-screen bg-white;
+}
+
+#app {
+  @apply max-w-7xl mx-auto p-8;
+}
+
+a {
+  @apply no-underline text-[hsla(160,100%,37%,1)] transition hover:bg-[hsla(160,100%,37%,0.2)];
+}
+
+nav {
+  @apply flex justify-center space-x-4 mt-8;
+}
+
+@media (min-width: 1024px) {
+  body {
+    @apply flex place-items-center;
+  }
+
+  #app {
+    @apply grid grid-cols-2 px-8;
+  }
+
+  header {
+    @apply flex place-items-center mr-12;
+  }
+
+  header .wrapper {
+    @apply flex flex-wrap flex-col place-items-start space-y-8;
+  }
+
+  nav {
+    @apply justify-start py-4 mt-4;
+  }
+}
+
