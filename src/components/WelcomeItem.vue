@@ -14,7 +14,7 @@
 
 <style scoped>
 .item {
-  @apply flex mt-8;
+  @apply flex items-center mt-8;
 }
 
 .details {
@@ -29,7 +29,7 @@ h3 {
   @apply text-xl font-medium mb-2 text-gray-800;
 }
 
-@media (min-width: 1024px) {
+@media screen(xl) {
   .item {
     @apply mt-0;
   }

@@ -8,14 +8,14 @@ import SupportIcon from "@/assets/icon-support.svg?component"
 </script>
 
 <template>
-  <div class="space-y-4">
+  <div class="welcome-items">
     <WelcomeItem>
       <template #icon>
         <DocumentationIcon />
       </template>
       <template #heading>Documentation</template>
       Vue’s
-      <a target="_blank" href="https://vuejs.org/">official documentation </a>
+      <a target="_blank" href="https://vuejs.org/">official documentation</a>
       provides you with all information you need to get started.
     </WelcomeItem>
 
@@ -23,20 +23,20 @@ import SupportIcon from "@/assets/icon-support.svg?component"
       <template #icon>
         <ToolingIcon />
       </template>
-      <template #heading> Tooling </template>
+      <template #heading>Tooling</template>
       This project is served and bundled with
 
       <a href="https://vitejs.dev/guide/features.html" target="_blank">
         Vite
       </a>
       . The recommended IDE setup is
-      <a href="https://code.visualstudio.com/" target="_blank"> VSCode </a>
+      <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
       +
       <a href="https://github.com/johnsoncodehk/volar" target="_blank">
         Volar
       </a>
       . If you need to test your components and web pages, check out
-      <a href="https://www.cypress.io/" target="_blank"> Cypress </a>
+      <a href="https://www.cypress.io/" target="_blank">Cypress</a>
       and
       <a
         href="https://docs.cypress.io/guides/component-testing/introduction"
@@ -81,7 +81,7 @@ import SupportIcon from "@/assets/icon-support.svg?component"
       </template>
       <template #heading> Community </template>
       Got stuck? Ask your question on
-      <a target="_blank" href="https://chat.vuejs.org"> Vue Land </a>
+      <a target="_blank" href="https://chat.vuejs.org">Vue Land</a>
       , our official Discord server, or
       <a
         target="_blank"
@@ -110,3 +110,9 @@ import SupportIcon from "@/assets/icon-support.svg?component"
     </WelcomeItem>
   </div>
 </template>
+
+<style scoped>
+.welcome-items {
+  @apply space-y-6;
+}
+</style>

@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply min-h-screen bg-white;
+  }
+
+  a {
+    @apply no-underline transition text-green-500 hover:text-green-500 hover:bg-green-500/[.2];
+  }
+}
