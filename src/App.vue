@@ -23,7 +23,7 @@ import TheLogo from "@/components/TheLogo.vue"
 
 <style>
 #app {
-  @apply max-w-7xl mx-auto p-8;
+  @apply max-w-7xl grid grid-cols-1 gap-8 mx-auto p-8;
 }
 
 header {

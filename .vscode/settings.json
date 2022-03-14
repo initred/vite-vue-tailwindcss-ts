@@ -1,0 +1,23 @@
+{
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "files.associations": { 
+        "*.css": "postcss",
+        "*.less": "postcss", 
+        "*.scss": "postcss",
+    },
+    "tailwindCSS.validate": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}

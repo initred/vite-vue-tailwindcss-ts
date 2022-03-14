@@ -6,7 +6,7 @@
     </h1>
 
     <div>
-      <ul>
+      <ul class="list-inside list-disc">
         <li>
           <a target="_blank" href="https://vitejs.dev">Vite</a>
         </li>
@@ -17,7 +17,7 @@
           <a target="_blank" href="https://tailwindcss.com">Tailwindcss</a>
         </li>
         <li>
-          <a target="_blank" href="https://headlessui.dev/">HeadlessUI</a>
+          <a target="_blank" href="https://headlessui.dev">HeadlessUI</a>
         </li>
         <li>
           <a target="_blank" href="https://prettier.io">Prettier</a>
@@ -26,7 +26,16 @@
           <a target="_blank" href="https://eslint.org">Eslint</a>
         </li>
         <li>
-          <a target="_blank" href="https://typescriptlang.org/">TypeScript</a>
+          <a target="_blank" href="https://typescriptlang.org">TypeScript</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://pinia.vuejs.org">Pinia</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://vitest.dev">Vitest</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://cypress.io">Cypress</a>
         </li>
       </ul>
     </div>
@@ -34,7 +43,7 @@
 </template>
 
 <style>
-@media screen(xl) {
+@media screen(lg) {
   .about {
     @apply min-h-screen flex flex-col justify-center space-y-8;
   }
