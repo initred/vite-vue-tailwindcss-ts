@@ -15,9 +15,9 @@
         "plaintext": "html"
     },
     "typescript.tsdk": "node_modules/typescript/lib",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
-    }
+    },
 }
